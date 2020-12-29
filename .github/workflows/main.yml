@@ -13,4 +13,4 @@ jobs:
       with:
         server: liambrewster.co.uk
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        password: ${{ secrets.PASSWORD }}
