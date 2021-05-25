@@ -2,10 +2,7 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
-name: 🚀 Deploy website on push
+name: 🚀 Deploy website on push to main
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -17,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: liambrewster.co.uk
+        server: ${{ secrets.SERVER }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
