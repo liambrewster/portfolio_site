@@ -10112,7 +10112,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-.projects {
+.resume-section-content .projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
