@@ -7,6 +7,8 @@
     <meta name="description" content="Web developer, developer, website, UK" />
     <meta name="author" content="" />
     <title>Liam Brewster - UK Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -162,52 +164,73 @@
         <section class="resume-section" id="projects">
             <div class="resume-section-content">
                 <h2 class="mb-5">Projects & Portfolio</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-code text-warning"></i></span>
-                        <span class="font-weight-bolder">
-                            Alpha Sheffield</span>, a Trade union website based on wordpress which takes regular
-                        subscription
-                        payments from members<span class="badge bg-success text-white">Live</span><a
-                            href="https://alphasheffield.org" target="_blank"> Visit</a>
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-code text-warning"></i></span>
-                        <span class="font-weight-bolder">Alex School of Motoring</span>, a static Html, CSS & JS website
-                        to give a clear cta for customer to
-                        reach out and book lessons <span class="badge bg-success text-white">Live</span><a
-                            href="http://www.alexschoolofmotoring.com/" target="_blank"> Visit</a>
-                    </li>
-                    <!--                     <li>
-                        <span class="fa-li"><i class="fas fa-code text-warning"></i></span>
-                        <span class="font-weight-bolder">LB Host</span>, an ecommerce website which sells web
-                        development and hosting products and also has
-                        integration with the stripe payment platform to handle monthly subscriptions payment to cover
-                        hosting <span class="badge bg-success text-white">Live</span><a href="https://www.lbhost.co.uk/"
-                            target="_blank">
-                            Visit</a>
-                    </li> -->
-                    <li>
-                        <span class="fa-li"><i class="fas fa-code text-warning"></i></span>
-                        <span class="font-weight-bolder">Liam Brewster</span>, a personal profile one pager that is
-                        designed to be a landing page for my URL and
-                        give an overview of me<span class="badge bg-success text-white">Live</span><a
-                            href="https://www.liambrewster.co.uk/" target="_blank">
-                            Visit</a>
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-code text-warning"></i></span>
-                        <span class="font-weight-bolder">Beehive Competitions</span>, a online competitions website
-                        which requires user to buy a ticket for entry and it will have a countdown timer on the product,
-                        then display a winner<span class="badge bg-success text-white">Live</span><a
-                            href="https://www.Beehivecomps.co.uk/" target="_blank">
-                            Visit</a>
-                    </li>
-                </ul>
+                <div class="projects">
+
+                    <div class="card mt-2" style="width: 18rem;">
+                        <img src="assets/img/Alexsom.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alex School of Motoring <span
+                                    class="badge bg-success text-white">Live</span></h5>
+                            <p class="card-text">a redesign project for a driving school static website </p>
+                            <a href="https://alexsom.co.uk/" class="btn btn-primary">Live site</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2" style="width: 18rem;">
+                        <img src="assets/img/lbhost.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">LB Host <span class="badge bg-success text-white">Live</span></h5>
+                            <p class="card-text">an ecommerce website which sells to sell web
+                                development and hosting products and with stripe recurring payments</p>
+                            <a href="https://www.lbhost.co.uk/" class="btn btn-primary">Live site</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2" style="width: 18rem;">
+                        <img src="assets/img/LiamBrewster.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Site <span class="badge bg-success text-white">Live</span>
+                            </h5>
+                            <p class="card-text">a personal profile one pager that is
+                                designed to be a landing page for my URL and
+                                give an overview of me</p>
+                            <a href="https://www.liambrewster.co.uk/" class="btn btn-primary">Live site</a>
+                        </div>
+                    </div>
+
+                    <div class="card mt-2" style="width: 18rem;">
+                        <img src="assets/img/beehive.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beehive Competitions <span class="badge bg-warning text-white">On
+                                    Hold</span>
+                            </h5>
+                            <p class="card-text">a raffle competition website through woocommerce</p>
+                            <!-- <a href="http://beehivecomps.co.uk/" class="btn btn-primary">Live site</a> -->
+                        </div>
+                    </div>
+                    <div class="card mt-2" style="width: 18rem;">
+                        <img src="assets/img/alpha.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ALPHA <span class="badge bg-danger text-white">Closed</span>
+                            </h5>
+                            <p class="card-text">a trade association website, with built in membership and recurring
+                                payment</p>
+                            <!-- <a href="http://beehivecomps.co.uk/" class="btn btn-primary">Live site</a> -->
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </section>
     </div>
     <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
