@@ -10114,6 +10114,7 @@ section.resume-section .resume-section-content {
 }
 .projects {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
