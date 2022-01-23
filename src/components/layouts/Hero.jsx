@@ -9,9 +9,11 @@ function Hero() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
-                <span className="block xl:inline">Hi, I Am </span>
-                <span className="block text-indigo-700 xl:inline">Liam Brewster</span>
+                <span className="block xl:inline">Hi, I am </span>
+                <span className="block text-sky-500 xl:inline">Liam Brewster</span>
               </h1>
+
+              {/* TODO - Get some relevent paragraph text */}
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                 fugiat veniam occaecat fugiat aliqua.
@@ -20,7 +22,7 @@ function Hero() {
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-400 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-400 hover:bg-sky-700 md:py-4 md:text-lg md:px-10"
                   >
                     Check Out My Work
                   </a>
