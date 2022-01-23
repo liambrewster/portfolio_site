@@ -20,7 +20,7 @@ function Hero() {
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                    {/* TODO - Link the HREF */}
+                {/* TODO - Link the HREF */}
                   <a
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-400 hover:bg-sky-700 md:py-4 md:text-lg md:px-10"
