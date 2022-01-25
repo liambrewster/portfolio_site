@@ -1,5 +1,4 @@
 import React from 'react';
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
 
 function LatestPosts() {
   // TODO - Get real blog data
