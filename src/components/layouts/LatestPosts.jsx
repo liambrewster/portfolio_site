@@ -5,23 +5,23 @@ function LatestPosts() {
   const blogs = [
     {
       id:1,
-      title:'How I changed my portfolio site from HTML/CSS/ JS to my first React/Tailwind/Hashnode project [Part 1 -Intro/Design]',
+      title:"Ey up, I'm Liam - Why I got started?",
       coverImage: 'https://source.unsplash.com/random/1610x850',
-      dateAdded: '11 Jan 2022',
-      tags:'HTML, CSS, JS',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-      slug: '/article1',
-      reactionCount: 27
+      dateAdded: '17 Jan 2022',
+      tags:'Introduction',
+      description: 'a blog post all about why i got started in tech',
+      slug: 'https://blog.liambrewster.co.uk/why-i-got-started',
+      reactionCount: 25
     },
     {
       id:2,
-      title:'Udemy Course Review - React JS Course',
+      title:'How I changed my portfolio site from HTML/CSS/ JS to my first React/Tailwind/Hashnode project [Part 1 -Intro/Design]',
       coverImage: 'https://source.unsplash.com/random/1600x840',
-      dateAdded: '14 Feb 2022',
+      dateAdded: '20 Jan 2022',
       tags:'React JS, Portfolio, Hashnode',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.', 
-      slug: '/article2',
-      reactionCount: 43
+      description: 'this blog goes through the stages of me switching my old devloper portfolio into a new shiney React JS with integrated blogs from Hashnode', 
+      slug: 'https://blog.liambrewster.co.uk/html-to-react-pt1',
+      reactionCount: 24
     },
   ]
 
@@ -29,12 +29,12 @@ function LatestPosts() {
     <div className="py-12 bg-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="contents lg:text-center">
-        <p className="grid text-sky-400 place-content-end text-ss hover:text-sky-700">View All</p>
+        <p className="grid text-sky-400 place-content-end text-ss hover:text-sky-700"> <a href="https://blog.liambrewster.co.uk">View All</a></p>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Check Out My Most Recent Blog Posts
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Check out my two most recent blogs below. but do not forget to check out all 25 that I have written.
+            Check out my two most recent blogs below. but do not forget to check out all of them.
           </p>
         </div>
           {/* TODO- fix the mobile responsivness */}
@@ -63,9 +63,9 @@ function LatestPosts() {
                         </div>
                       </div>
 
-                      <h4 className="mt-1 text-xl font-semibold uppercase leading-tight truncate">
+                      <a href={blog.slug}><h4 className="mt-1 text-xl font-semibold uppercase leading-tight truncate">
                       {blog.title}
-                      </h4>
+                      </h4></a>
 
                       <div className="mt-1">
                       {blog.description}

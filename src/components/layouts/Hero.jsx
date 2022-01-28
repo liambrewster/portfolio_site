@@ -1,5 +1,5 @@
 import React from 'react';
-import LiamImage from './LiamImage.png'
+import LiamImage from '../Images/LiamImage.png'
 
 function Hero() {
   return (
@@ -21,7 +21,7 @@ function Hero() {
                 <div className="rounded-md shadow">
                 {/* TODO - Link the HREF */}
                   <a
-                    href="#"
+                    href="#featured"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-400 hover:bg-sky-700 md:py-4 md:text-lg md:px-10"
                   >
                     Check Out My Work
