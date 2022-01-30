@@ -1,13 +1,16 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
+import DevPortfolio from '../Images/DevPortfolio.jpg'
+import GithubFinder from '../Images/GithubFinder.jpg'
+import YelpCamp from '../Images/YelpCamp.jpg'
+
 function FeaturedWork() {
-  // TODO - Get real project images
   const projects = [
     {
       id:1,
       title:'My Developer Portfolio',
-      coverImage: 'https://source.unsplash.com/random/350x250',
+      coverImage: DevPortfolio,
       year: '2022',
       tech:'React Js, Hashnode, Vercel',
       description: 'My lastest project has been to redesign my develoepr portfolio which you are looking at right now, but i wrote a blog along the way all about what i did',
@@ -16,7 +19,7 @@ function FeaturedWork() {
     {
       id:2,
       title:'Github Profile Finder',
-      coverImage: 'https://source.unsplash.com/random/360x260',
+      coverImage: GithubFinder,
       year: '2022',
       tech:'React Js, Github API, Vercel',
       description: 'This was my first deployed React Js project that allow you to input a username and will bring back all matching profiles, that you can then view basic information about',
@@ -25,7 +28,7 @@ function FeaturedWork() {
     {
       id:2,
       title:'Yelp Camp',
-      coverImage: 'https://source.unsplash.com/random/250x250',
+      coverImage: YelpCamp,
       year: '2021',
       tech:'Express JS, Mongo DB, Node JS, Telegram',
       description: 'This is a campsite review website, the final project for my bootcamp, but with an added feature of integrating with Telegram to send text message for new sign ups or reviews',
@@ -62,7 +65,7 @@ function FeaturedWork() {
                         </div>
                       <p className='mt-5'>{project.description}</p>
                       {/* hidden item not on orignal design 
-                      TODO - ADD Links to code & live project */}
+                      TODO - ADD buttons to code & live project */}
                       {/* <div className="flex flex-row mt-2">
                       <button className="tracking-widest flex flex-row items-center bg-sky-300 rounded-full text-white my-2 px-3 hover:bg-sky-600"><FaGithub size='35px'className='mr-1'/></button>
                       <button className="tracking-widest flex flex-row items-center bg-sky-300 rounded-full text-white my-3 p-2 ml-2 hover:bg-sky-600"><FaExternalLinkAlt size='35px'className='mr-1'/> </button>
