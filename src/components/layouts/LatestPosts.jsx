@@ -1,12 +1,11 @@
 import React from 'react';
 
 function LatestPosts() {
-  // TODO - Get real blog data
   const blogs = [
     {
       id:1,
       title:"Ey up, I'm Liam - Why I got started?",
-      coverImage: 'https://source.unsplash.com/random/1610x850',
+      coverImage: 'https://images.unsplash.com/photo-1471958680802-1345a694ba6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1266&q=80',
       dateAdded: '17 Jan 2022',
       tags:'Introduction',
       description: 'a blog post all about why i got started in tech',
@@ -16,7 +15,7 @@ function LatestPosts() {
     {
       id:2,
       title:'How I changed my portfolio site from HTML/CSS/ JS to my first React/Tailwind/Hashnode project [Part 1 -Intro/Design]',
-      coverImage: 'https://source.unsplash.com/random/1600x840',
+      coverImage: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1266&q=80',
       dateAdded: '20 Jan 2022',
       tags:'React JS, Portfolio, Hashnode',
       description: 'this blog goes through the stages of me switching my old devloper portfolio into a new shiney React JS with integrated blogs from Hashnode', 
