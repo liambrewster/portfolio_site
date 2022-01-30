@@ -52,7 +52,7 @@ function FeaturedWork() {
                   <div className='flex flex-row min-h-64 border-b-4 pb-3 border-gray-300'>
                     {/* Left Image */}
                     <div className="p-2 basis-1/2">
-                    <img src={project.coverImage} className='rounded-lg' />
+                    <img src={project.coverImage} alt="Project cover image"className='rounded-lg' />
                     </div>
 
                     {/* Right Text */}
