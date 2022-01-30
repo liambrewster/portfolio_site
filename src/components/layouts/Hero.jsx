@@ -13,13 +13,12 @@ function Hero() {
                 <span className="block text-sky-500 xl:inline">Liam Brewster</span>
               </h1>
 
-              {/* TODO - Get some relevent paragraph text */}
+              
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              A UK based, full stack web developer, who is mission-driven with a passion for making user-friendly websites for small businesses to help them perform better and grow online. I am interested to collaborate with you, so please don’t be afraid to get in touch.
+              A UK based, full stack web developer, who is mission-driven with a passion for making user-friendly and functional websites for small businesses to help them perform better and grow online. I am interested to collaborate with you, so please don’t be afraid to get in touch.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                {/* TODO - Link the HREF */}
                   <a
                     href="#featured"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-sky-400 hover:bg-sky-700 md:py-4 md:text-lg md:px-10"
