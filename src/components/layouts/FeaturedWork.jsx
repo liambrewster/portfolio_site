@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import DevPortfolio from '../Images/DevPortfolio.jpg'
 import GithubFinder from '../Images/GithubFinder.jpg'
@@ -50,12 +49,9 @@ function FeaturedWork() {
             {projects.map((project) => (
                 <div key={project.id} className=''>
                   <div className='flex flex-col md:flex-row min-h-64 border-b-4 pb-3 border-gray-300'>
-                    {/* Left Image */}
                     <div className="p-2 md:basis-1/2">
                     <img src={project.coverImage} alt="Project cover image" className='rounded-lg' />
                     </div>
-
-                    {/* Right Text */}
                     <div className="p-2">
                       <a href={project.slug}><h1 className='text-center md:text-left text-xl md:text-5xl font-bold mb-2 md:mb-4'>{project.title}</h1></a>
                         <div className="flex flex-row">
@@ -63,10 +59,7 @@ function FeaturedWork() {
                         <button className="rounded-full bg-sky-600 text-white text-sm md:text-2xl px-2 md:px-5 tracking-widest mb-4">{project.year}</button>
                         <p className=" text-xs md:text-xl p-1 ml-20 tracking-widest mb-4">{project.tech}</p>
                         </div>
-                      <p className='mt-1 ml-1 md:ml-0 md:mt-5 text-sm md:text-base'>{project.description}</p>
-                    
-                      {/* TODO - ADD buttons to code & live project  */}
-                      
+                      <p className='mt-1 ml-1 md:ml-0 md:mt-5 text-sm md:text-base'>{project.description}</p>                    
 
                     </div>
                   </div>
