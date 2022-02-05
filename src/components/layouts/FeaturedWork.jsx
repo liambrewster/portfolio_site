@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import DevPortfolio from '../Images/DevPortfolio.jpg'
 import GithubFinder from '../Images/GithubFinder.jpg'
@@ -13,8 +12,8 @@ function FeaturedWork() {
       coverImage: DevPortfolio,
       year: '2022',
       tech:'React Js, Hashnode, Vercel',
-      description: 'My lastest project has been to redesign my develoepr portfolio which you are looking at right now, but i wrote a blog along the way all about what i did',
-      slug: 'https://liambrewster.co.uk',
+      description: 'My lastest project has been to redesign my developer portfolio which you are looking at right now, but i wrote a blog along the way all about what i did',
+      slug: 'https://liambrewster.com',
     },
     {
       id:2,
@@ -26,7 +25,7 @@ function FeaturedWork() {
       slug: 'https://github-finder-xi-bay.vercel.app/',
     },
     {
-      id:2,
+      id:3,
       title:'Yelp Camp',
       coverImage: YelpCamp,
       year: '2021',
@@ -45,31 +44,22 @@ function FeaturedWork() {
             Check Out Some Of My Featured Work
           </p>
         </div>
-        <div className="mt-10">
+        <div className="md:mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-1 md:gap-x-8 md:gap-y-10">
             {projects.map((project) => (
                 <div key={project.id} className=''>
-                  <div className='flex flex-row min-h-64 border-b-4 pb-3 border-gray-300'>
-                    {/* Left Image */}
-                    <div className="p-2 basis-1/2">
-                    <img src={project.coverImage} alt="Project cover image"className='rounded-lg' />
+                  <div className='flex flex-col md:flex-row min-h-64 border-b-4 pb-3 border-gray-300'>
+                    <div className="p-2 md:basis-1/2">
+                    <img src={project.coverImage} alt="Project cover image" className='rounded-lg' />
                     </div>
-
-                    {/* Right Text */}
                     <div className="p-2">
-                      <a href={project.slug}><h1 className='text-5xl font-bold mb-4'>{project.title}</h1></a>
+                      <a href={project.slug}><h1 className='text-center md:text-left text-xl md:text-5xl font-bold mb-2 md:mb-4'>{project.title}</h1></a>
                         <div className="flex flex-row">
 
-                        <button className="rounded-full bg-sky-600 text-white text-2xl px-5 tracking-widest mb-4">{project.year}</button>
-                        <p className=" text-1xl p-1 ml-20 tracking-widest mb-4">{project.tech}</p>
+                        <button className="rounded-full bg-sky-600 text-white text-sm md:text-2xl px-2 md:px-5 tracking-widest mb-4">{project.year}</button>
+                        <p className=" text-xs md:text-xl p-1 ml-20 tracking-widest mb-4">{project.tech}</p>
                         </div>
-                      <p className='mt-5'>{project.description}</p>
-                      {/* hidden item not on orignal design 
-                      TODO - ADD buttons to code & live project */}
-                      {/* <div className="flex flex-row mt-2">
-                      <button className="tracking-widest flex flex-row items-center bg-sky-300 rounded-full text-white my-2 px-3 hover:bg-sky-600"><FaGithub size='35px'className='mr-1'/></button>
-                      <button className="tracking-widest flex flex-row items-center bg-sky-300 rounded-full text-white my-3 p-2 ml-2 hover:bg-sky-600"><FaExternalLinkAlt size='35px'className='mr-1'/> </button>
-                      </div> */}
+                      <p className='mt-1 ml-1 md:ml-0 md:mt-5 text-sm md:text-base'>{project.description}</p>                    
 
                     </div>
                   </div>
