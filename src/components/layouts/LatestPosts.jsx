@@ -68,7 +68,7 @@ function LatestPosts() {
                       <div className="mt-1 text-xs md:text-base truncate md:whitespace-normal ">
                       {blog.description}
                       </div>
-                      <div class="mt-4">
+                      <div className="mt-4">
                         <span className="text-sky-600 text-md font-semibold">{blog.dateAdded} </span>
                         <span className="text-sm text-gray-600 invisible md:visible">(currently with {blog.reactionCount} reactions)</span>
                       </div>
