@@ -26,7 +26,7 @@ function FeaturedWork() {
       slug: 'https://github-finder-xi-bay.vercel.app/',
     },
     {
-      id:2,
+      id:3,
       title:'Yelp Camp',
       coverImage: YelpCamp,
       year: '2021',
