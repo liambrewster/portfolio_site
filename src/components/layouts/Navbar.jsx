@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBars,FaFacebookSquare, } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 
 function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
