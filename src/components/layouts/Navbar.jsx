@@ -31,6 +31,14 @@ function Navbar({ fixed }) {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-s uppercase font-bold leading-snug  hover:opacity-75 hover:tracking-wider"
+                  href="#featured"
+                >
+                  <span className="ml-2">Works</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-s uppercase font-bold leading-snug  hover:opacity-75 hover:tracking-wider"
                   href="https://blog.liambrewster.co.uk"
                 >
                   <span className="ml-2">Blog</span>
