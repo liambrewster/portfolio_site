@@ -63,7 +63,7 @@ function LatestPosts() {
                         </div>
                       </div>
 
-                      <a href={blog.slug}><h4 className="mt-1 text-base md:text-xl font-semibold uppercase leading-tight truncate">
+                      <a href={blog.slug}><h4 className="mt-1 text-base md:text-xl font-semibold uppercase leading-tight ">
                       {blog.title}
                       </h4></a>
 
