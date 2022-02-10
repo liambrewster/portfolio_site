@@ -31,9 +31,9 @@ function LatestPosts() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="contents lg:text-center">
         <p className="grid text-sky-400 place-content-end text-ss hover:text-sky-700"> <a href="https://blog.liambrewster.co.uk">View All</a></p>
-          <p className="mt-2 text-xl md:text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="mt-2 text-xl md:text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Check Out My Most Recent Blog Posts
-          </p>
+          </h2>
           <p className="mt-4 max-w-2xl text-base md:text-xl text-gray-500 lg:mx-auto">
             Check out my two most recent blogs below. but do not forget to check out all of them.
           </p>
@@ -63,9 +63,9 @@ function LatestPosts() {
                         </div>
                       </div>
 
-                      <a href={blog.slug}><h4 className="mt-1 text-base md:text-xl font-semibold uppercase leading-tight ">
+                      <a href={blog.slug}><h3 className="mt-1 text-base md:text-xl font-semibold uppercase leading-tight ">
                       {blog.title}
-                      </h4></a>
+                      </h3></a>
 
                       <div className="mt-1 text-xs md:text-base truncate md:whitespace-normal ">
                       {blog.description}
