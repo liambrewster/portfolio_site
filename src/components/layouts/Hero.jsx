@@ -35,7 +35,7 @@ function Hero() {
         <img
           className="h-46 w-full object-cover sm:h-72 md:h-96 lg:w-96 lg:h-96"
           src={LiamImage}
-          alt=""
+          alt="Profile Picture of Liam Brewster the UK Web Developer"
         />
       </div>
     </div>

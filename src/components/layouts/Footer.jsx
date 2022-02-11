@@ -15,7 +15,7 @@ function Footer() {
   </div>
 
   <div className="text-center text-gray-700 p-4" >
-    © 2022 Copyright: 
+    © Let's Not Pretend I Copywright this in 2022 : 
     <a className="text-gray-800" href="https://lbhost.co.uk/"> Powered by LB Host</a>
   </div>
 </footer>;
