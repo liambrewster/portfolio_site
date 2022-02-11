@@ -15,7 +15,7 @@ function Hero() {
 
               
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              A UK based, full stack web developer, who is mission-driven with a passion for making user-friendly and functional websites for small businesses to help them perform better and grow online. I am interested to collaborate with you, so please don’t be afraid to get in touch.
+              A UK based, full stack web developer, who has a passion for making user-friendly and functional websites for small businesses to help them perform better and grow online. I am interested to collaborate with you, so please don’t be afraid to get in touch.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
