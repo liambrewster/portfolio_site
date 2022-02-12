@@ -5,19 +5,19 @@ function Footer() {
   return <footer className="text-center text-white" >
   <div className="justify-center pt-9" id="contact">
     <div className="flex justify-center mb-9">
-      <a href="https://twitter.com/liambrewster" className="mr-7 text-gray-800">
+      <a href="https://twitter.com/liambrewster" className="mr-7 text-gray-800 hover:-translate-y-2">
         <FaTwitter size="35px"/>
       </a>
-      <a href="https://github.com/liambrewster" className="mr-7 text-gray-800">
+      <a href="https://github.com/liambrewster" className="mr-7 text-gray-800 hover:-translate-y-2">
         <FaGithub size="35px"/>
       </a>
-      <a href="https://www.linkedin.com/in/liambrewster/" className="mr-7 text-gray-800">
+      <a href="https://www.linkedin.com/in/liambrewster/" className="mr-7 text-gray-800 hover:-translate-y-2">
         <FaLinkedinIn size="35px"/>
       </a>
-      <a href="https://www.facebook.com/LBWebHost" className="mr-7 text-gray-800">
+      <a href="https://www.facebook.com/LBWebHost" className="mr-7 text-gray-800 hover:-translate-y-2">
         <FaFacebook size="35px"/>
       </a>
-      <a href="https://www.youtube.com/channel/UCVEAr3LdCt8dMX19AqDRUIg" className="mr-7 text-gray-800">
+      <a href="https://www.youtube.com/channel/UCVEAr3LdCt8dMX19AqDRUIg" className="mr-7 text-gray-800 hover:-translate-y-2">
         <FaYoutube size="35px"/>
       </a>
     </div>
