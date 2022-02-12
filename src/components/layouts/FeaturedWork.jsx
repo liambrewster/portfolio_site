@@ -3,6 +3,7 @@ import React from 'react';
 import DevPortfolio from '../Images/DevPortfolio.jpg'
 import GithubFinder from '../Images/GithubFinder.jpg'
 import YelpCamp from '../Images/YelpCamp.jpg'
+import AlexSOM from '../Images/AlexSOM.jpg'
 
 function FeaturedWork() {
   const projects = [
@@ -35,6 +36,16 @@ function FeaturedWork() {
       tech:'Express JS, Mongo DB, Node JS, Telegram',
       description: 'This is a campsite review website, the final project for my bootcamp, but with an added feature of integrating with Telegram to send text message for new sign ups or reviews',
       slug: 'https://yelpcamp.liambrewster.co.uk/',
+    },
+    {
+      id:4,
+      title:'Alex School Of Motoring',
+      coverImage: AlexSOM,
+      imageAlt: 'Alex School of Motoring Website',
+      year: '2020',
+      tech:'HTML, CSS, JS, ',
+      description: 'This was a paid project to rebuild their website by bringing it up to date with modern design and information, along with ongoing support and hosting servies',
+      slug: 'https://alexsom.co.uk/',
     },
     
   ]
