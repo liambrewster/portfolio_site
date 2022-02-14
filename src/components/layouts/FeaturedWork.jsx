@@ -44,7 +44,7 @@ function FeaturedWork() {
       imageAlt: 'Alex School of Motoring Website',
       year: '2020',
       tech:'HTML, CSS, JS, ',
-      description: 'This was a paid project to rebuild their website by bringing it up to date with modern design and information, along with ongoing support and hosting servicßes',
+      description: 'This was a paid project to rebuild their website by bringing it up to date with modern design and information, along with ongoing support and hosting services',
       slug: 'https://alexsom.co.uk/',
     },
     
