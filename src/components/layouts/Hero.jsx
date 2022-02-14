@@ -15,7 +15,7 @@ function Hero() {
 
               
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              A UK based, full stack web developer, who wants to work with you to create a user-friendly and functional websites, Helping you perform better and grow online. I am looking forward to collaborate with you, so please don’t be afraid to get in touch.
+              A UK based, Website designer &amp; developer, who wants to give your customers the most user-friendly and functional website, Helping you perform better and grow online. I am looking forward to collaborate with you on your amazing website, so let's chat.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -35,7 +35,7 @@ function Hero() {
         <img
           className="h-46 w-full object-cover sm:h-72 md:h-96 lg:w-96 lg:h-96"
           src={LiamImage}
-          alt="Profile Picture of Liam Brewster the UK Web Developer"
+          alt="Liam Brewster the UK Web Designer and Developer"
         />
       </div>
     </div>
