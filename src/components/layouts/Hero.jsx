@@ -15,7 +15,7 @@ function Hero() {
 
               <h1 className='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>A Sheffield based, Website designer, Developer &amp; Social Media Manager / Marketer</h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I want your customers to see the best side of you by ensuring you have the most user-friendly and functional online prescence through the use of websites or social media, We help you perform better and grow online. I am looking forward to collaborate with you on your amazing website to thrive online, so let's chat.
+              I help your business get more customers with your website so you can focus on the reason you started in the first place. I want your customers to see the best side of you by ensuring you have the most user-friendly and functional online prescence. I am looking forward to collaborate with you on your amazing website to thrive online, so let's chat.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -31,7 +31,7 @@ function Hero() {
           </main>
         </div>
       </div>
-      <div className="grid place-items-center lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="grid place-items-center mb-3 lg:mb-0 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-46 w-full object-cover sm:h-72 md:h-96 lg:w-96 lg:h-96"
           src={LiamImage}
