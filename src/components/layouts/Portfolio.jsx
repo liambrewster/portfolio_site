@@ -1,13 +1,16 @@
 import React from 'react';
 
-import BlogPost from '../Images/BlogPost.png'
+import YelpCamp from '../Images/YelpCamp.jpg'
+import AlexSOM from '../Images/AlexSOM.jpg'
+import GithubImg from '../Images/GithubFinder.jpg'
+import LiamImg from '../Images/DevPortfolio.jpg'
 
 function Portfolio() {
   const projects = [
     {
       id:1,
       title:'Alex School Of Motoring',
-      coverImage: BlogPost,
+      coverImage: AlexSOM,
       tags:'Web Design, Developement and SEO',
       description: 'This is a total re-design of an existing website for a local Driving school, I managed it all from design to development and run monthly reports to check analytics , making changes to improve search engine results', 
       slug: 'https://alexsom.co.uk/',
@@ -15,10 +18,26 @@ function Portfolio() {
     {
       id:2,
       title:'Yelp Camp',
-      coverImage: BlogPost,
-      tags:'Web Development',
+      coverImage: YelpCamp,
+      tags:'Concept Design',
       description: 'This was a personal concept project to build a review wesbite based on the niche of campsites, this is in preparation for an upcoming and pending project', 
       slug: 'http://yelpcamp.liambrewster.co.uk/',
+    },
+    {
+      id:3,
+      title:'Github Profile Finder',
+      coverImage: GithubImg,
+      tags:'Concept Design',
+      description: 'This was a personal concept project to build a wesbite based on the Github Users, this is in preparation for an upcoming and pending project', 
+      slug: 'https://github-finder-xi-bay.vercel.app/',
+    },
+    {
+      id:4,
+      title:'Personal Website',
+      coverImage: LiamImg,
+      tags:'Web Design, Developement and SEO',
+      description: 'This was a personal concept project to build a wesbite based on the Github Users, this is in preparation for an upcoming and pending project', 
+      slug: 'https://liambrewster.co.uk',
     },
   ]
 
