@@ -4,7 +4,6 @@ const userData = {
 	designation: 'Web-Designer & Developer',
 	avatarUrl: '/avatar.png',
 	email: 'Liam@liambrewster.co.uk',
-	phone: '+44070000000',
 	address: 'Sheffield, United Kingdom.',
 	projects: [
 		{
@@ -19,36 +18,17 @@ const userData = {
 		},
 		{
 			title: 'Portfolio',
-			link: 'https://manuarora.in',
+			link: 'https://liambrewster.co.uk',
 			imgUrl: '/portfolio.png',
 		},
 		{
-			title: 'CovidRescue',
+			title: 'KFC Landing Page',
 			link: 'https://covidrescue.co.in',
 			imgUrl: '/covidrescue.png',
 		},
-		{
-			title: 'Algochurn',
-			link: 'https://algochurn.com',
-			imgUrl: '/algochurn.png',
-		},
-		{
-			title: 'Playground',
-			link: 'https://play.placeholdertech.in',
-			imgUrl: '/playground.png',
-		},
-		{
-			title: 'Feedmeback',
-			link: 'https://feedmeback.vercel.app',
-			imgUrl: '/feedmeback.png',
-		},
-		{
-			title: 'Devmedium',
-			link: 'https://devmedium.vercel.app',
-			imgUrl: '/devmedium.png',
-		},
 	],
 	about: {
+		// TODO: fill out about me information
 		title:
 			"I'm a software developer that loves building products and web applications that impact millions of lives",
 		description: [
@@ -60,13 +40,15 @@ const userData = {
 		currentProjectUrl: 'https://paymytaxi.co',
 	},
 	experience: [
+		// TODO: add experiences
+		// add about citygrab, silvertop system migration/updgrades, upwork/fiver freelance etc, panther taxis
 		{
-			title: 'Software Developer',
-			company: 'mroads',
-			year: '2021',
-			companyLink: 'https://mroads.com',
+			title: 'Working With YOU!',
+			company: 'Your Company',
+			year: '2022',
+			companyLink: 'https://liambrewster.co.uk',
 			desc:
-				'Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.',
+				'This is the year, both me and you get to work together on an exciting project',
 		},
 		{
 			title: 'Founder and Developer',
@@ -79,7 +61,7 @@ const userData = {
 		{
 			title: 'Founder and Developer',
 			company: 'Algochurn',
-			year: '2021',
+			year: '2020',
 			companyLink: 'https://algochurn.com',
 			desc:
 				'Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.',
@@ -87,7 +69,7 @@ const userData = {
 		{
 			title: 'Internship',
 			company: 'Intel Corporation',
-			year: '2019',
+			year: '2018',
 			companyLink: 'https://intel.com',
 			desc:
 				'Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.',
@@ -95,28 +77,24 @@ const userData = {
 		{
 			title: 'Graduation',
 			company: 'UPES, Dehradun.',
-			year: '2019',
+			year: '2017',
 			companyLink: 'https://upes.co.in',
 			desc:
 				"Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
 		},
 		{
-			title: 'High School',
-			company: 'Delhi Public School, Jaipur.',
-			year: '2015',
+			title: 'Graduation',
+			company: 'University Of Hull',
+			year: '2011',
 			companyLink: 'https://upes.co.in',
 			desc:
-				'Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.',
+				'Graduated the Business School with a BA Hons in Sports and Leisure Management, Ready to take on the world.',
 		},
 	],
-	resumeUrl:
-		'https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing',
 	socialLinks: {
-		instagram: 'https://instagram.com/liambrewster',
 		twitter: 'https://twitter.com/liambrewster',
 		linkedin: 'https://linkedin.com/in/liambrewster',
 		github: 'https://github.com/liambrewster',
-		facebook: 'https://facebook.com/liambrewster',
 	},
 };
 

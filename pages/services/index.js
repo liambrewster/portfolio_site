@@ -1,13 +1,13 @@
 import React from 'react';
 import ContainerBlock from '@components/ContainerBlock';
-import AboutMe from '@components/AboutMe';
-import Experience from '@components/Experience';
+import Services from '@components/Services';
+import ServicesTile from '@components/ServicesTile';
 
 export default function about() {
 	return (
 		<ContainerBlock>
-			<AboutMe />
-			<Experience />
+			<Services />
+			<ServicesTile />
 		</ContainerBlock>
 	);
 }

@@ -32,9 +32,16 @@ export default function Hero() {
 						</h1>
 					</RainbowHighlight>
 				</RoughNotationGroup>
+				<p className='text-lg text-gray-500 mt-6 dark:text-gray-300'>
+					I help your business get more customers with your website, so you can focus
+					on the reason you started in the first place. I want your customers to see
+					the best side of you by ensuring you have the most user-friendly and
+					functional online prescence.
+				</p>
 			</div>
 			{/* Image container */}
-			<div className='hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20'>
+			{/* TODO: show image on mobile size */}
+			<div className='hidden lg:block sm:relative sm:w-full md:w-1/2 sm:-mr-40 sm:mt-20'>
 				<div className='w-3/4 '>
 					<img
 						src={userData.avatarUrl}
@@ -56,7 +63,7 @@ export default function Hero() {
 									d='M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z'
 								/>
 							</svg>
-							<p className='font-mono'>That's me</p>
+							<p className='font-mono'>That&apos;s me</p>
 						</div>
 					</div>
 				</div>

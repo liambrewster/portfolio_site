@@ -2,12 +2,13 @@ import React from 'react';
 import userData from '@constants/data';
 import Image from 'next/image';
 
-export default function AboutMe() {
+export default function Services() {
+	// TODO: put all the content for services page
 	return (
 		<section className='bg-white dark:bg-gray-800'>
 			<div className='max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800'>
 				<h1 className=' text-5xl md:text-9xl font-bold py-20 text-center md:text-left'>
-					About Me.
+					My Services.
 				</h1>
 			</div>
 			<div className='bg-[#F1F1F1] -mt-10 dark:bg-gray-900'>
