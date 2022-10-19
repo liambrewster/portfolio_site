@@ -13,11 +13,11 @@ export default function ServicesTile() {
 			{/* Grid starts here */}
 			<div className='bg-[#F1F1F1] dark:bg-gray-900'>
 				<div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40'>
-					{userData.projects.map((proj, idx) => (
+					{userData.servicesList.map((serv, idx) => (
 						<ServiceCard
-							title={proj.title}
-							link={proj.link}
-							imgUrl={proj.imgUrl}
+							title={serv.title}
+							link={serv.link}
+							imgUrl={serv.imgUrl}
 							number={`${idx + 1}`}
 							key={idx}
 						/>
@@ -31,14 +31,14 @@ export default function ServicesTile() {
 const ServiceCard = ({ title, link, imgUrl, number }) => {
 	return (
 		<a
-			href={link}
+			href={`/services${link}`}
 			className='w-full block shadow-2xl'
 		>
 			<div className='relative overflow-hidden'>
 				<div className='h-72 object-cover'>
 					<img
 						src={imgUrl}
-						alt='portfolio'
+						alt='Services'
 						className='transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full'
 					/>
 				</div>

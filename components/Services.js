@@ -17,13 +17,7 @@ export default function Services() {
 						className='leading-loose text-2xl md:text-4xl font-semibold  mx-4'
 						style={{ lineHeight: '3rem' }}
 					>
-						{userData.about.title}. Currently working on{' '}
-						<a
-							className='bg-sky-500 rounded-md px-2 py-1 text-white'
-							href={userData.about.currentProjectUrl}
-						>
-							{userData.about.currentProject} ✈️
-						</a>
+						{userData.services.title}
 					</p>
 				</div>
 			</div>
@@ -48,12 +42,12 @@ export default function Services() {
 						</div>
 						<div className='mt-8'>
 							<h1 className='text-xl font-semibold text-gray-700 dark:text-gray-200'>
-								Job Opportunities
+								Not Seeing a Service?
 							</h1>
 							<p className='text-lg text-gray-500 mt-4 dark:text-gray-300'>
-								I&apos;m always looking forward to work with new people on awesome
-								projects and I&apos;d love to hear what you are working on to see if i
-								can work with you.
+								I&apos;m always looking forward to work on new projects, so if you do
+								not see the service you want listed, it doesn&apos;t mean i am not
+								already doing it. Reach out and let&apos;s chat
 							</p>
 						</div>
 						{/* Social Links */}
@@ -101,7 +95,7 @@ export default function Services() {
 					</div>
 					{/* Text area */}
 					<div className='col-span-1 md:col-span-2'>
-						{userData.about.description?.map((desc, idx) => (
+						{userData.services.description?.map((desc, idx) => (
 							<p
 								key={idx}
 								className='text-xl text-gray-700 mb-4 dark:text-gray-300 '
@@ -109,69 +103,6 @@ export default function Services() {
 								{desc}
 							</p>
 						))}
-						{/* TODO: update to next image tags */}
-						<h1 className='bg-sky-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50'>
-							Tech Stack
-						</h1>
-						<div className='flex flex-row flex-wrap mt-8'>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/wordpress/wordpress.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://avatars.githubusercontent.com/u/54469796?s=200&v=4'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/tailwind/tailwind.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-							<img
-								src='https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png'
-								className='h-20 w-20 mx-4 my-4'
-							/>
-						</div>
 					</div>
 				</div>
 			</div>

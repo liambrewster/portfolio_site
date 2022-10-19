@@ -15,7 +15,7 @@ export default function Navbar() {
 	}, []);
 
 	return (
-		<div className='max-w-6xl  mx-auto px-4 py-10 md:py-20'>
+		<div className='max-w-6xl mx-auto px-4 py-10 md:py-10'>
 			<div className='flex  md:flex-row justify-between items-center'>
 				{/* Logo / Home / Text */}
 
@@ -141,9 +141,10 @@ export default function Navbar() {
 
 				<div className='space-x-4 flex flex-row items-center'>
 					{/* TODO: build login screen */}
+					{/* TODO: build login screen */}
 					<Link href='/login'>
 						<a
-							className={`text-base transform hover:scale-120 hover:-rotate-3 transition duration-300 hover:bg-sky-500 ${
+							className={`text-base transform hover:scale-120 hover:-rotate-3 transition duration-300 hover:bg-sky-500 rounded-md px-2 py-1 hover:text-gray-50 ${
 								router.asPath === '/login'
 									? 'text-gray-800 font-bold dark:text-gray-400'
 									: 'text-gray-600 dark:text-gray-300 font-normal '
@@ -169,7 +170,7 @@ export default function Navbar() {
 					</Link>
 					<a
 						href={userData.socialLinks.twitter}
-						className='text-base font-normal text-gray-600 dark:text-gray-300 transform hover:scale-110 hover:-rotate-3 transition duration-300'
+						className='text-base font-normal text-gray-600 dark:text-gray-300 transform hover:scale-110 hover:-rotate-3 transition duration-300 rounded-md  hover:text-gray-50'
 					>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
@@ -184,7 +185,7 @@ export default function Navbar() {
 					</a>
 					<a
 						href={userData.socialLinks.linkedin}
-						className='text-base font-normal text-gray-600 dark:text-gray-300 transform hover:scale-110 hover:-rotate-3 transition duration-300'
+						className='text-base font-normal text-gray-600 dark:text-gray-300 transform hover:scale-110 hover:-rotate-3 transition duration-300 rounded-md  hover:text-gray-50'
 					>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'

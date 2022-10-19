@@ -33,9 +33,9 @@ export default function Hero() {
 					</RainbowHighlight>
 				</RoughNotationGroup>
 				<p className='text-lg text-gray-500 mt-6 dark:text-gray-300'>
-					I help your business get more customers with your website, so you can focus
-					on the reason you started in the first place. I want your customers to see
-					the best side of you by ensuring you have the most user-friendly and
+					I help your business get more customers through your website, so you can
+					focus on the reason you started in the first place. I want your customers
+					to see the best side of you by ensuring you have the most user-friendly and
 					functional online prescence.
 				</p>
 			</div>
