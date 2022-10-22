@@ -20,7 +20,6 @@ export default function Contact() {
 
 	const onSubmit = (e) => {
 		e.preventDefault();
-		setSubmitted(true);
 		console.log('Sending');
 		fetch('/api/contact', {
 			method: 'POST',
@@ -155,6 +154,7 @@ export default function Contact() {
 								type='text'
 								className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
 								name='name'
+								required
 								value={name}
 								onChange={onChange}
 							/>
@@ -165,9 +165,10 @@ export default function Contact() {
 								Email
 							</label>
 							<input
-								type='text'
+								type='email'
 								className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
 								name='email'
+								required
 								value={email}
 								onChange={onChange}
 							/>
@@ -182,6 +183,7 @@ export default function Contact() {
 								type='text'
 								className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
 								name='message'
+								required
 								value={message}
 								onChange={onChange}
 							></textarea>
