@@ -1,7 +1,43 @@
 import React from 'react';
 import userData from '@constants/data';
+import { useState } from 'react';
 
 export default function Contact() {
+	const [formData, setFormData] = useState({
+		name: '',
+		email: '',
+		message: '',
+	});
+	const [submitted, setSubmitted] = useState(false);
+
+	const { name, email, message } = formData;
+	const onChange = (e) => {
+		setFormData((prevState) => ({
+			...prevState,
+			[e.target.name]: e.target.value,
+		}));
+	};
+
+	const onSubmit = (e) => {
+		e.preventDefault();
+		setSubmitted(true);
+		console.log('Sending');
+		fetch('/api/contact', {
+			method: 'POST',
+			headers: {
+				Accept: 'application/json, text/plain, */*',
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(formData),
+		}).then((res) => {
+			console.log('Response received');
+			if (res.status === 200) {
+				console.log('Response succeeded!');
+				setSubmitted(true);
+			}
+		});
+	};
+
 	return (
 		<section>
 			<div className='max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased'>
@@ -91,50 +127,73 @@ export default function Contact() {
 							</a>
 						</div>
 					</div>
-					<form className='form rounded-lg bg-white p-4 flex flex-col'>
-						<label
-							htmlFor='name'
-							className='text-sm text-gray-600 mx-4'
+					{submitted && (
+						<div className='flex rounded-lg bg-white flex-col justify-center align-items-center'>
+							<header className=''>
+								<h1 className='text-sky-500 font-semibold text-center text-3xl'>
+									Contact Form Submitted
+								</h1>
+								<p className='font-light text-base text-center text-sky-500 mt-2'>
+									Thanks For Your message, we will review and reply shortly!.
+								</p>
+							</header>
+						</div>
+					)}
+					{!submitted && (
+						<form
+							className='form rounded-lg bg-white p-4 flex flex-col'
+							onSubmit={onSubmit}
 						>
-							{' '}
-							Your Name
-						</label>
-						<input
-							type='text'
-							className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
-							name='name'
-						/>
-						<label
-							htmlFor='email'
-							className='text-sm text-gray-600 mx-4 mt-4'
-						>
-							Email
-						</label>
-						<input
-							type='text'
-							className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
-							name='email'
-						/>
-						<label
-							htmlFor='message'
-							className='text-sm text-gray-600 mx-4 mt-4'
-						>
-							Message
-						</label>
-						<textarea
-							rows='4'
-							type='text'
-							className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
-							name='message'
-						></textarea>
-						{/* TODO: where should the form submit to? telegram or email? */}
-						<button
-							type='submit'
-							className='bg-sky-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold'
-						>
-							Send Message
-						</button>
-					</form>
+							<label
+								htmlFor='name'
+								className='text-sm text-gray-600 mx-4'
+							>
+								{' '}
+								Your Name
+							</label>
+							<input
+								type='text'
+								className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
+								name='name'
+								value={name}
+								onChange={onChange}
+							/>
+							<label
+								htmlFor='email'
+								className='text-sm text-gray-600 mx-4 mt-4'
+							>
+								Email
+							</label>
+							<input
+								type='text'
+								className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
+								name='email'
+								value={email}
+								onChange={onChange}
+							/>
+							<label
+								htmlFor='message'
+								className='text-sm text-gray-600 mx-4 mt-4'
+							>
+								Message
+							</label>
+							<textarea
+								rows='4'
+								type='text'
+								className='font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500'
+								name='message'
+								value={message}
+								onChange={onChange}
+							></textarea>
+							{/* TODO: where should the form submit to? telegram or email? */}
+							<button
+								type='submit'
+								className='bg-sky-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold'
+							>
+								Send Message
+							</button>
+						</form>
+					)}
 				</div>
 			</div>
 		</section>
