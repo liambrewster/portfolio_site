@@ -43,10 +43,10 @@ const userData = {
 		title:
 			'I work on everything that relates to the web, so that includes from ideas and designs, through to development and finally the ongoing support through maintainence or SEO services',
 		description: [
-			`I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-			`After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-			`But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
-			`Read through the options below and click on the services that inerest you, and it will expand to provide you with more information`,
+			`I can offer so much to you and your business which can range from helping out with the smooth running of the project in a consutancy role, ensuring your design and development team deliver you the perfect project, or getting my hands dirty myself and writing lines of code to bring your ideas to life. Furthermore, I also offer long-term support, hosting/domain advice, and marketing to grow your business.`,
+			`With my abilities as a frontend and backend developer allows me to create everything from small business websites, to live bidding platforms, eCommerce stores, blogs, booking systems, finance systems, business portals, health and hospital systems, online business systems, eLearning platforms, user interfaces, and even fully functional custom social networks.`,
+			`Despite being Sheffield, UK based, I work with clients all over the world.`,
+			`Reach out for a chat and lets talk through your ideas and projects`,
 		],
 	},
 	servicesList: [
