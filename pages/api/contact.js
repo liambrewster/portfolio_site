@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 // TODO: add some route protection for SPAM
-export default function (req, res) {
+export default async (req, res) => {
 	const { MAIL_PORT, MAIL_HOST, MAIL_USER, MAIL_PASSWORD } = process.env;
 	const { name, email, message } = req.body;
 
@@ -14,7 +14,10 @@ export default function (req, res) {
 		secure: true,
 	});
 	const mailData = {
-		from: 'temp1@liambrewster.co.uk',
+		from: {
+			name: `${name} - Website Contact`,
+			address: MAIL_USER,
+		},
 		to: 'liam@liambrewster.co.uk',
 		replyTo: email,
 		subject: `Website Contact Message From ${name}`,
@@ -22,12 +25,14 @@ export default function (req, res) {
 		html: `<div>${message}</div><p>Sent from:
         ${email}</p>`,
 	};
-	transporter.sendMail(mailData, function (err, info) {
-		if (err) {
-			console.log(err);
-		} else {
-			console.log(info);
-		}
+	await new Promise((resolve, reject) => {
+		transporter.sendMail(mailData, function (err, info) {
+			if (err) {
+				reject(err);
+			} else {
+				resolve(info);
+			}
+		});
 	});
 	return res.status(200).end();
-}
+};
