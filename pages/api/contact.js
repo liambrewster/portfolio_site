@@ -20,7 +20,7 @@ export default async (req, res) => {
 		},
 		to: 'liam@liambrewster.co.uk',
 		replyTo: email,
-		subject: `Website Contact Message From ${name}`,
+		subject: `Website Contact Form Message From ${name}`,
 		text: message + ' | Sent from: ' + email,
 		html: `<div>${message}</div><p>Sent from:
         ${email}</p>`,

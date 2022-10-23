@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://github.com/liambrewster/liambrewster/blob/main/image/LB%20Dev%20Logo.png" width="150" height="150">
 
-## Getting Started
+# Personal Portfolio Site
 
-First, run the development server:
+My Personal Portfolio site is a personal project for my website. This has been newly updated to be a NextJs
+
+## Installation
+
+if you dont have the project already, from your terminal:
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/liambrewster/portfolio_site.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> This Command will copy a full project to your local environment
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Install the node modules with:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+npm install portfolio_site
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+or from within your package.json file open the terminal and run
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In the project directory, you can run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `npm run dev`
 
-## Deploy on Vercel
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Badges
+
+<img alt="Code Climate issues" src="https://img.shields.io/codeclimate/issues/liambrewster/portfolio_site">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/liambrewster/portfolio_site">
+<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/liambrewster/portfolio_site">
+
+## Images
+
+Pending...
+
+## Roadmap
+
+This is a fluid project, that i will look to keep updating, but i have a project board for my redesign and list of projects i want to add, so go check them and you will see i have raised issues for the tasks i need to complete for them
+
+## Project Status
+
+Ongoing ...
