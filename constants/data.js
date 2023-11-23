@@ -1,7 +1,7 @@
 const userData = {
 	githubUsername: 'liambrewster',
 	name: 'Liam Brewster',
-	designation: 'Web-Designer & Developer',
+	designation: 'Industry Leader & Mentor',
 	avatarUrl: '/avatar.png',
 	email: 'Liam@liambrewster.co.uk',
 	address: 'Sheffield, United Kingdom.',
@@ -36,58 +36,81 @@ const userData = {
 			`I'm fiercely dedicated to designing the best websites I possibly can for clients like you, websites that not only look beautiful but leave your competitors in the dust and help your business grow.`,
 			`In my spare time, I'm often found being crazy with my two daughters and the dog, either that or I'm shut in a dark room watching too much youtube of probably football highlights.`,
 		],
-		currentProject: 'Pay My Taxi',
-		currentProjectUrl: 'https://paymytaxi.co',
+		currentProject: 'Veezu',
+		currentProjectUrl: 'https://Veezu.co.uk',
 	},
 	services: {
-		title:
-			'I work on everything that relates to the web, so that includes from ideas and designs, through to development and finally the ongoing support through maintainence or SEO services',
+		title: 'Lets Connect and Collaborate!',
 		description: [
-			`I can offer so much to you and your business which can range from helping out with the smooth running of the project in a consutancy role, ensuring your design and development team deliver you the perfect project, or getting my hands dirty myself and writing lines of code to bring your ideas to life. Furthermore, I also offer long-term support, hosting/domain advice, and marketing to grow your business.`,
-			`With my abilities as a frontend and backend developer allows me to create everything from small business websites, to live bidding platforms, eCommerce stores, blogs, booking systems, finance systems, business portals, health and hospital systems, online business systems, eLearning platforms, user interfaces, and even fully functional custom social networks.`,
-			`Despite being Sheffield, UK based, I work with clients all over the world.`,
-			`Reach out for a chat and lets talk through your ideas and projects`,
+			`With a wealth of knowledge and seasoned experience, I bring valuable expertise to the table, poised to advise and guide on any business decisions effectively. My depth of insight enables strategic counsel that empowers informed decision-making, ensuring the business navigates toward success with confidence and clarity.`,
+			`I'm passionate about sharing insights, strategising for growth, and exploring exciting opportunities within the UK taxi industry. Whether it's casual coffee chats to exchange ideas, strategy meetings to brainstorm innovative approaches, or consultations for business enhancement, I'm open to engaging in discussions that drive positive change.`,
+			`Moreover, I'm also open to exploring consultancy engagements, be it for payment, equity participation, or non-executive positions—provided they align with ethical considerations and avoid competition or conflicts of interest with my current commitments.`,
+			`Let's explore ways to innovate and evolve the UK taxi landscape together. Reach out for a friendly conversation or to explore potential collaborations!`,
 		],
 	},
+
 	servicesList: [
 		// TODO: create all these pages
+		// Expanding on these, here are ten more collaboration opportunities:
+		// extra options:
+		// Strategic Planning and Implementation
 		{
-			title: 'Web Design',
+			title: 'Outsourcing Strategies',
 			link: '#',
 			imgUrl: '/WebDesignService.png',
 		},
 		{
-			title: 'Web Development',
+			title: 'Resource Allocation & Management',
 			link: '#',
 			imgUrl: '/WebDevService.png',
 		},
 		{
-			title: 'Website Maintenance',
+			title: 'Change Management Initiatives and Roadmaps',
 			link: '#',
 			imgUrl: '/WebMainService.png',
 		},
 		{
-			title: 'Wordpress Websites',
+			title: 'Staff Engagement and Training Consultancy',
 			link: '#',
 			imgUrl: '/WordpressWeb.png',
 		},
 		{
-			title: 'SEO',
+			title: 'Technical Fault Diagnosis and Resolution',
 			link: '#',
 			imgUrl: '/SeoServ.png',
 		},
 		{
-			title: 'Ecommerce Site',
+			title: 'Operational Reviews and Enhancements',
 			link: '#',
 			imgUrl: '/EcomServ.png',
 		},
 		{
-			title: 'Social Media Management',
+			title: 'Efficiency Audits and Streamlining Processes',
 			link: '#',
 			imgUrl: '/SocialMediaServ.png',
 		},
 		{
-			title: 'Ad Campaign Optimisation',
+			title: 'Technical Audits for Systems and Infrastructure',
+			link: '#',
+			imgUrl: '/AdvertService.png',
+		},
+		{
+			title: 'Performance Measurement and KPI Development',
+			link: '#',
+			imgUrl: '/AdvertService.png',
+		},
+		{
+			title: 'Crisis and Business Continuity Planning',
+			link: '#',
+			imgUrl: '/AdvertService.png',
+		},
+		{
+			title: 'Data Analysis and BI Consultancy',
+			link: '#',
+			imgUrl: '/AdvertService.png',
+		},
+		{
+			title: 'Strategic Planning and Implementation',
 			link: '#',
 			imgUrl: '/AdvertService.png',
 		},
@@ -96,10 +119,10 @@ const userData = {
 		{
 			title: 'Working With YOU!',
 			company: 'Your Company',
-			year: '2022',
+			year: '2024',
 			companyLink: 'https://liambrewster.co.uk/contact',
 			desc:
-				'This is the year, both me and you get to work together on an exciting project',
+				'This is the year, both me and you get to work together on an exciting collobration projects',
 		},
 		{
 			title: 'More Freelance Work',

@@ -8,7 +8,7 @@ export default function Services() {
 		<section className='bg-white dark:bg-gray-800'>
 			<div className='max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800'>
 				<h1 className=' text-5xl md:text-9xl font-bold py-20 text-center md:text-left'>
-					My Services.
+					Collaboration .
 				</h1>
 			</div>
 			<div className='bg-[#F1F1F1] -mt-10 dark:bg-gray-900'>
@@ -30,24 +30,24 @@ export default function Services() {
 								Contact
 							</h1>
 							<p className='text-lg text-gray-500 mt-4 dark:text-gray-300'>
-								For any sort help / enquiry, shoot a{' '}
+								For any sort help / enquiry, shoot an{' '}
 								<a
 									href={`mailto:${userData.email}`}
 									className='text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300'
 								>
-									mail
+									email
 								</a>{' '}
 								and I&apos;ll get back. I swear.
 							</p>
 						</div>
 						<div className='mt-8'>
 							<h1 className='text-xl font-semibold text-gray-700 dark:text-gray-200'>
-								Not Seeing a Service?
+								Not Seeing a Collaboration You Want?
 							</h1>
 							<p className='text-lg text-gray-500 mt-4 dark:text-gray-300'>
-								I&apos;m always looking forward to work on new projects, so if you do
-								not see the service you want listed, it doesn&apos;t mean i am not
-								already doing it. Reach out and let&apos;s chat
+								I&apos;m always looking forward to to explore potential ways of engaging
+								or collaborating with new people within the UK taxi industry. Reach out
+								and let&apos;s chat
 							</p>
 						</div>
 						{/* Social Links */}
@@ -64,18 +64,6 @@ export default function Services() {
 									<p className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
 										<div className='absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300'></div>
 										Twitter
-									</p>
-								</a>
-							</div>
-							<div className='flex flex-row justify-start items-center'>
-								<a
-									href={userData.socialLinks.github}
-									className='flex flex-row items-center space-x-4 group'
-								>
-									<div className='my-4'>&rarr;</div>
-									<p className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
-										<div className='absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300'></div>
-										GitHub
 									</p>
 								</a>
 							</div>

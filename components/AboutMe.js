@@ -109,6 +109,7 @@ export default function AboutMe() {
 							</p>
 						))}
 						{/* TODO: update to next image tags */}
+						{/* TODO: Change this to be a carousel of companies i hav worked with over the years , like the car badge on a starred project*/}
 						<h1 className='bg-sky-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50'>
 							Tech Stack
 						</h1>

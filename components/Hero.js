@@ -13,30 +13,31 @@ export default function Hero() {
 				<RoughNotationGroup show={true}>
 					<RainbowHighlight color={colors[0]}>
 						<h1 className='text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2'>
-							Developer.
+							Innovator.
 						</h1>
 					</RainbowHighlight>
 					<RainbowHighlight color={colors[1]}>
 						<h1 className='text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2'>
-							Designer.
+							Mentor.
 						</h1>
 					</RainbowHighlight>
 					<RainbowHighlight color={colors[2]}>
 						<h1 className='text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2'>
-							Consultant.
+							Leader.
 						</h1>
 					</RainbowHighlight>
 					<RainbowHighlight color={colors[3]}>
 						<h1 className='text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2'>
-							Marketeer.
+							Visionary.
 						</h1>
 					</RainbowHighlight>
 				</RoughNotationGroup>
 				<p className='text-lg text-gray-500 mt-6 dark:text-gray-300'>
-					I help your business get more customers through your website, so you can
-					focus on the reason you started in the first place. I want your customers
-					to see the best side of you by ensuring you have the most user-friendly and
-					functional online prescence.
+					Experienced in working with some of the top organizations in the UK taxi
+					industry, I spark change. With a clear vision and rich experience, I create
+					innovative strategies, provide crucial mentorship, and lead by example. My
+					aim? Steering the industry towards a brighter tomorrow, blending
+					innovation, guidance, and forward-thinking for a more vibrant future
 				</p>
 			</div>
 			{/* Image container */}

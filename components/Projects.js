@@ -33,6 +33,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
 			href={link}
 			className='w-full block shadow-2xl'
 			target='_blank'
+			rel='noreferrer'
 		>
 			<div className='relative overflow-hidden'>
 				<div className='h-72 object-cover'>

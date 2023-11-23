@@ -85,16 +85,16 @@ export default function Navbar() {
 							)}
 						</a>
 					</Link>
-					<Link href='/services'>
+					<Link href='/collaboration'>
 						<a
 							className={`text-base  ${
-								router.asPath === '/services'
+								router.asPath === '/collaboration'
 									? 'text-gray-800 font-bold dark:text-gray-400'
 									: 'text-gray-600 dark:text-gray-300 font-normal '
 							}`}
 						>
-							Services{' '}
-							{router.asPath === '/services' && (
+							Collaboration{' '}
+							{router.asPath === '/collaboration' && (
 								<svg
 									xmlns='http://www.w3.org/2000/svg'
 									width='16'
@@ -140,7 +140,6 @@ export default function Navbar() {
 				</div>
 
 				<div className='space-x-4 flex flex-row items-center'>
-					{/* TODO: build login screen */}
 					{/* TODO: build login screen */}
 					<Link href='/login'>
 						<a
@@ -243,9 +242,9 @@ export default function Navbar() {
 						Projects
 					</a>
 				</Link>
-				<Link href='/services'>
+				<Link href='/collaboration'>
 					<a className='text-base font-normal text-gray-600 dark:text-gray-300'>
-						Services
+						Collaboration
 					</a>
 				</Link>
 				<Link href='/contact'>

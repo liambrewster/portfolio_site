@@ -11,8 +11,8 @@ import userData from '@constants/data';
 export default function Home({ repositories }) {
 	return (
 		<ContainerBlock
-			title='Liam Brewster - Developer, Designer, Consultant, Marketeer'
-			description='Need a website designed for your business? An interesting web developement project? Maybe a small update? Let us focus on creating your website that performs well in search engine rankings.'
+			title='Liam Brewster - Innovator, Mentor, Leader, Visionary'
+			description='A driving force within the UK taxi industry. Steerin the industry toward a progressive and vibrant future'
 		>
 			<Hero />
 			<FavouriteServices />
@@ -22,16 +22,16 @@ export default function Home({ repositories }) {
 	);
 }
 
-export const getServerSideProps = async () => {
-	// console.log(process.env.GITHUB_AUTH_TOKEN);
-	let token = process.env.GITHUB_AUTH_TOKEN;
+// export const getServerSideProps = async () => {
+// 	// console.log(process.env.GITHUB_AUTH_TOKEN);
+// 	let token = process.env.GITHUB_AUTH_TOKEN;
 
-	const repositories = await getLatestRepos(userData, token);
-	// console.log('REPOSITORIES', repositories);
+// 	const repositories = await getLatestRepos(userData, token);
+// 	// console.log('REPOSITORIES', repositories);
 
-	return {
-		props: {
-			repositories,
-		},
-	};
-};
+// 	return {
+// 		props: {
+// 			repositories,
+// 		},
+// 	};
+// };

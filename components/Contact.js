@@ -187,7 +187,6 @@ export default function Contact() {
 								value={message}
 								onChange={onChange}
 							></textarea>
-							{/* TODO: where should the form submit to? telegram or email? */}
 							<button
 								type='submit'
 								className='bg-sky-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold'
