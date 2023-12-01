@@ -16,7 +16,7 @@ export default function AboutMe() {
 						className='leading-loose text-2xl md:text-4xl font-semibold  mx-4'
 						style={{ lineHeight: '3rem' }}
 					>
-						{userData.about.title}. Currently working on{' '}
+						{userData.about.title}. Currently working with{' '}
 						<a
 							className='bg-sky-500 rounded-md px-2 py-1 text-white'
 							href={userData.about.currentProjectUrl}
@@ -47,7 +47,7 @@ export default function AboutMe() {
 						</div>
 						<div className='mt-8'>
 							<h1 className='text-xl font-semibold text-gray-700 dark:text-gray-200'>
-								Job Opportunities
+								Want to Collaborate?
 							</h1>
 							<p className='text-lg text-gray-500 mt-4 dark:text-gray-300'>
 								I&apos;m always looking forward to work with new people on awesome
@@ -66,22 +66,10 @@ export default function AboutMe() {
 									className='flex flex-row items-center space-x-4 group'
 								>
 									<div className='my-4'>&rarr;</div>
-									<p className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
+									<div className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
 										<div className='absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300'></div>
 										Twitter
-									</p>
-								</a>
-							</div>
-							<div className='flex flex-row justify-start items-center'>
-								<a
-									href={userData.socialLinks.github}
-									className='flex flex-row items-center space-x-4 group'
-								>
-									<div className='my-4'>&rarr;</div>
-									<p className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
-										<div className='absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300'></div>
-										GitHub
-									</p>
+									</div>
 								</a>
 							</div>
 							<div className='flex flex-row justify-start items-center'>
@@ -90,10 +78,10 @@ export default function AboutMe() {
 									className='flex flex-row items-center space-x-4 group'
 								>
 									<div className='my-4'>&rarr;</div>
-									<p className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
+									<div className='text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300'>
 										<div className='absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300'></div>
 										LinkedIn
-									</p>
+									</div>
 								</a>
 							</div>
 						</div>

@@ -7,8 +7,8 @@ const userData = {
 	address: 'Sheffield, United Kingdom.',
 	projects: [
 		{
-			title: 'Pay My Taxi',
-			link: 'https://PayMyTaxi.co',
+			title: 'Veezu',
+			link: 'https://veezu.co.uk',
 			imgUrl: '/PayMyTaxiMock.png',
 		},
 		{
@@ -29,11 +29,11 @@ const userData = {
 	],
 	about: {
 		title:
-			"I'm a website developer that loves building products and web applications that impact millions of lives",
+			'I want to be a leader and shake up our industry, sparking change and creating awesome stuff for all to benefit',
 		description: [
 			`A 32-year-old freelance web designer & developer. I'm also a Sheffield United supporter, Tech-Geek and Star Wars megafan. I like to work on all things web, from UI/UX design to full-stack development.`,
 			`Freelancing is not my full time gig, I work as part of the management team for one of the UK's largest taxi companies, ensuring we are at the cutting edge of technology and our business is optimised to work in the most effcient way possible. so that is why you will notice a theme of most of my projects being with the transport/logistics/taxi industry but i can work with all industries`,
-			`I'm fiercely dedicated to designing the best websites I possibly can for clients like you, websites that not only look beautiful but leave your competitors in the dust and help your business grow.`,
+			`I'm fiercely dedicated to achieving success with everything i am involed with, pushing boundaries along the way.`,
 			`In my spare time, I'm often found being crazy with my two daughters and the dog, either that or I'm shut in a dark room watching too much youtube of probably football highlights.`,
 		],
 		currentProject: 'Veezu',
@@ -51,68 +51,65 @@ const userData = {
 
 	servicesList: [
 		// TODO: create all these pages
-		// Expanding on these, here are ten more collaboration opportunities:
-		// extra options:
-		// Strategic Planning and Implementation
 		{
 			title: 'Outsourcing Strategies',
 			link: '#',
-			imgUrl: '/WebDesignService.png',
+			imgUrl: '/service/outsource.jpeg',
 		},
 		{
 			title: 'Resource Allocation & Management',
 			link: '#',
-			imgUrl: '/WebDevService.png',
+			imgUrl: '/service/rota.jpeg',
 		},
 		{
 			title: 'Change Management Initiatives and Roadmaps',
 			link: '#',
-			imgUrl: '/WebMainService.png',
+			imgUrl: '/service/change.jpeg',
 		},
 		{
 			title: 'Staff Engagement and Training Consultancy',
 			link: '#',
-			imgUrl: '/WordpressWeb.png',
+			imgUrl: '/service/engagement.jpeg',
 		},
 		{
 			title: 'Technical Fault Diagnosis and Resolution',
 			link: '#',
-			imgUrl: '/SeoServ.png',
+			imgUrl: '/service/technical.jpeg',
 		},
 		{
 			title: 'Operational Reviews and Enhancements',
 			link: '#',
-			imgUrl: '/EcomServ.png',
+			imgUrl: '/service/operational.jpeg',
 		},
 		{
 			title: 'Efficiency Audits and Streamlining Processes',
 			link: '#',
-			imgUrl: '/SocialMediaServ.png',
+			imgUrl: '/service/effcient.jpeg',
 		},
 		{
 			title: 'Technical Audits for Systems and Infrastructure',
 			link: '#',
-			imgUrl: '/AdvertService.png',
+			imgUrl: '/service/audits.jpeg',
 		},
 		{
 			title: 'Performance Measurement and KPI Development',
 			link: '#',
-			imgUrl: '/AdvertService.png',
+			imgUrl: '/service/kpi.jpeg',
 		},
 		{
 			title: 'Crisis and Business Continuity Planning',
 			link: '#',
-			imgUrl: '/AdvertService.png',
+			imgUrl: '/service/crisis.jpeg',
 		},
 		{
 			title: 'Data Analysis and BI Consultancy',
 			link: '#',
-			imgUrl: '/AdvertService.png',
+			imgUrl: '/service/BI.jpeg',
 		},
 		{
 			title: 'Strategic Planning and Implementation',
 			link: '#',
-			imgUrl: '/AdvertService.png',
+			imgUrl: '/service/strategy.jpeg',
 		},
 	],
 	experience: [

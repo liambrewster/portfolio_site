@@ -20,7 +20,10 @@ export default function Navbar() {
 				{/* Logo / Home / Text */}
 
 				<div className='flex flex-col'>
-					<Link href='/'>
+					<Link
+						href='/'
+						legacyBehavior
+					>
 						<a>
 							<h1 className='font-semibold text-xl dark:text-gray-100'>
 								{userData.name}
@@ -33,7 +36,10 @@ export default function Navbar() {
 				</div>
 
 				<div className='space-x-8 hidden md:block'>
-					<Link href='/about'>
+					<Link
+						href='/about'
+						legacyBehavior
+					>
 						<a
 							className={`text-base  ${
 								router.asPath === '/about'
@@ -59,7 +65,10 @@ export default function Navbar() {
 							)}
 						</a>
 					</Link>
-					<Link href='/projects'>
+					<Link
+						href='/projects'
+						legacyBehavior
+					>
 						<a
 							className={`text-base  ${
 								router.asPath === '/projects'
@@ -85,7 +94,10 @@ export default function Navbar() {
 							)}
 						</a>
 					</Link>
-					<Link href='/collaboration'>
+					<Link
+						href='/collaboration'
+						legacyBehavior
+					>
 						<a
 							className={`text-base  ${
 								router.asPath === '/collaboration'
@@ -111,7 +123,10 @@ export default function Navbar() {
 							)}
 						</a>
 					</Link>
-					<Link href='/contact'>
+					<Link
+						href='/contact'
+						legacyBehavior
+					>
 						<a
 							className={`text-base  ${
 								router.asPath === '/contact'
@@ -141,7 +156,10 @@ export default function Navbar() {
 
 				<div className='space-x-4 flex flex-row items-center'>
 					{/* TODO: build login screen */}
-					<Link href='/login'>
+					<Link
+						href='/login'
+						legacyBehavior
+					>
 						<a
 							className={`text-base transform hover:scale-120 hover:-rotate-3 transition duration-300 hover:bg-sky-500 rounded-md px-2 py-1 hover:text-gray-50 ${
 								router.asPath === '/login'
@@ -232,22 +250,34 @@ export default function Navbar() {
 				</div>
 			</div>
 			<div className='space-x-8 block md:hidden mt-4'>
-				<Link href='/about'>
+				<Link
+					href='/about'
+					legacyBehavior
+				>
 					<a className='text-base font-normal text-gray-600 dark:text-gray-300'>
 						About
 					</a>
 				</Link>
-				<Link href='/projects'>
+				<Link
+					href='/projects'
+					legacyBehavior
+				>
 					<a className='text-base font-normal text-gray-600 dark:text-gray-300'>
 						Projects
 					</a>
 				</Link>
-				<Link href='/collaboration'>
+				<Link
+					href='/collaboration'
+					legacyBehavior
+				>
 					<a className='text-base font-normal text-gray-600 dark:text-gray-300'>
 						Collaboration
 					</a>
 				</Link>
-				<Link href='/contact'>
+				<Link
+					href='/contact'
+					legacyBehavior
+				>
 					<a className='text-base font-normal text-gray-600 dark:text-gray-300'>
 						Contact
 					</a>

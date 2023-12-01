@@ -10,7 +10,10 @@ export default function FavouriteServices() {
 					<h1 className='text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center'>
 						Popular Collaboration
 					</h1>
-					<Link href='/collaboration'>
+					<Link
+						href='/collaboration'
+						legacyBehavior
+					>
 						<a className='mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700'>
 							<svg
 								xmlns='http://www.w3.org/2000/svg'
@@ -42,8 +45,8 @@ export default function FavouriteServices() {
 					>
 						<div className='relative overflow-hidden'>
 							<img
-								src='/SeoServ.png'
-								alt='Seo Services'
+								src='/service/outsource.jpeg'
+								alt='Outsourcing Strategies'
 								className='transform hover:scale-125 transition duration-2000 ease-out'
 							/>
 							<h1 className='absolute top-10 left-10 text-gray-50 font-bold text-xl bg-sky-500 rounded-md px-2'>
@@ -62,8 +65,8 @@ export default function FavouriteServices() {
 						<div className='relative overflow-hidden'>
 							{/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
 							<img
-								src='/WebDevService.png'
-								alt='Website Development'
+								src='/service/technical.jpeg'
+								alt='Technical Fault Diagnosis and Resolution'
 								className='transform hover:scale-125 transition duration-2000 ease-out'
 							/>
 							<h1 className='absolute top-10 left-10 text-gray-50 font-bold text-xl bg-sky-500 rounded-md px-2'>
@@ -82,8 +85,8 @@ export default function FavouriteServices() {
 						<div className='relative overflow-hidden shadow-2xl'>
 							{/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
 							<img
-								src='/WebMainService.png'
-								alt='Website Maintenence'
+								src='/service/operational.jpeg'
+								alt='Operational Reviews and Enhancements'
 								className='transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl'
 							/>
 							<h1 className='absolute top-10 left-10 text-gray-50 font-bold text-xl bg-sky-500 rounded-md px-2'>
@@ -96,8 +99,8 @@ export default function FavouriteServices() {
 						<div className='relative overflow-hidden shadow-2xl'>
 							{/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
 							<img
-								src='/WebMainService.png'
-								alt='Website Maintenence'
+								src='/service/kpi.jpeg'
+								alt='Performance Measurement and KPI Development'
 								className='transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl'
 							/>
 							<h1 className='absolute top-10 left-10 text-gray-50 font-bold text-xl bg-sky-500 rounded-md px-2'>
