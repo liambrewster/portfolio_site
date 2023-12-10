@@ -82,12 +82,17 @@ export default function Projects() {
 						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
 							Hey folks! below is a list of my current endeavors and upcoming ventures
 							. Currently, I'm proudly associated with Veezu, where I drive operational
-							excellence. On the horizon, I'm thrilled to introduce two exciting
-							projects. Meet Taxi Social Ai—a game-changer for social media branding in
-							the taxi business, crafting engaging content and visuals. Then there's
-							Park4taxi—a driver-focused platform for sharing prime parking spots and
-							local insights. Join me on this exciting journey ahead! and could yours
-							be listed on here soon?
+							excellence.
+						</p>
+						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
+							On the horizon, I'm thrilled to introduce two exciting projects. Meet
+							Taxi Social Ai—a game-changer for social media branding in the taxi
+							business, crafting engaging content and visuals.
+						</p>
+						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
+							Then there's Park4taxi—a driver-focused platform for sharing prime
+							parking spots and local insights. Join me on this exciting journey ahead!
+							and could yours be listed on here soon?
 						</p>
 					</div>
 				</div>
