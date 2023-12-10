@@ -18,8 +18,8 @@ const userData = {
 			imgUrl: '/projects/taxisocial.jpeg',
 		},
 		{
-			title: 'Park 4 Taxi (Coming Soon)',
-			link: 'https://Park4taxi.liambrewster.co.uk',
+			title: 'Taxi Spot Finder (Coming Soon)',
+			link: 'https://taxispotfinder.liambrewster.co.uk',
 			imgUrl: '/projects/parking.jpeg',
 		},
 	],

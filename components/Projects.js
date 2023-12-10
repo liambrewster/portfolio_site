@@ -90,9 +90,9 @@ export default function Projects() {
 							business, crafting engaging content and visuals.
 						</p>
 						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
-							Then there&apos;s Park 4 taxi—a driver-focused platform for sharing prime
-							parking spots and local insights. Join me on this exciting journey ahead!
-							and could yours be listed on here soon?
+							Then there&apos;s Taxi Spot Finder—a driver-focused platform for sharing
+							prime parking spots and local insights. Join me on this exciting journey
+							ahead! and could yours be listed on here soon?
 						</p>
 					</div>
 				</div>
