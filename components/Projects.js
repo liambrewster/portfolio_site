@@ -15,7 +15,7 @@ export default function Projects() {
 						className='leading-loose text-2xl md:text-4xl font-semibold  mx-4'
 						style={{ lineHeight: '3rem' }}
 					>
-						See What I Am Currently working On!
+						See what I am currently working on!
 					</p>
 				</div>
 			</div>
@@ -81,16 +81,16 @@ export default function Projects() {
 					<div className='col-span-1 md:col-span-2'>
 						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
 							Hey folks! below is a list of my current endeavors and upcoming ventures
-							. Currently, I'm proudly associated with Veezu, where I drive operational
-							excellence.
+							. Currently, I&apos;m proudly associated with Veezu, where I drive
+							operational excellence.
 						</p>
 						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
-							On the horizon, I'm thrilled to introduce two exciting projects. Meet
-							Taxi Social Ai—a game-changer for social media branding in the taxi
+							On the horizon, I&apos;m thrilled to introduce two exciting projects.
+							Meet Taxi Social Ai—a game-changer for social media branding in the taxi
 							business, crafting engaging content and visuals.
 						</p>
 						<p className='text-xl text-gray-700 mb-4 dark:text-gray-300 '>
-							Then there's Park4taxi—a driver-focused platform for sharing prime
+							Then there&apos;s Park 4 taxi—a driver-focused platform for sharing prime
 							parking spots and local insights. Join me on this exciting journey ahead!
 							and could yours be listed on here soon?
 						</p>

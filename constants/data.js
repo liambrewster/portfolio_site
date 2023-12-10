@@ -123,7 +123,7 @@ const userData = {
 			year: '2023',
 			companyLink: 'https://veezu.co.uk',
 			desc:
-				'Helped transition into working as part of the bigger group woth Veezu',
+				'Helped transition into working as part of the bigger group with Veezu',
 		},
 		{
 			title: 'Quality and Effciencies',
