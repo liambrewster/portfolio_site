@@ -65,12 +65,12 @@ export default function FavouriteServices() {
 						<div className='relative overflow-hidden'>
 							{/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
 							<img
-								src='/service/technical.jpeg'
+								src='/service/WebDev.jpeg'
 								alt='Technical Fault Diagnosis and Resolution'
 								className='transform hover:scale-125 transition duration-2000 ease-out'
 							/>
 							<h1 className='absolute top-10 left-10 text-gray-50 font-bold text-xl bg-sky-500 rounded-md px-2'>
-								Technical Fault Diagnosis and Resolution
+								Software Development and Project Management
 							</h1>
 							<h1 className='absolute bottom-10 left-10 text-gray-50 font-bold text-xl'>
 								02
@@ -99,12 +99,12 @@ export default function FavouriteServices() {
 						<div className='relative overflow-hidden shadow-2xl'>
 							{/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
 							<img
-								src='/service/kpi.jpeg'
-								alt='Performance Measurement and KPI Development'
+								src='/service/technical.jpeg'
+								alt='Software Development and Project Management'
 								className='transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl'
 							/>
 							<h1 className='absolute top-10 left-10 text-gray-50 font-bold text-xl bg-sky-500 rounded-md px-2'>
-								Performance Measurement and KPI Development
+								Technical Fault Diagnosis and Resolution
 							</h1>
 							<h1 className='absolute bottom-10 left-10 text-gray-50 font-bold text-xl'>
 								04

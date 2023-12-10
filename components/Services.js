@@ -46,8 +46,7 @@ export default function Services() {
 							</h1>
 							<p className='text-lg text-gray-500 mt-4 dark:text-gray-300'>
 								I&apos;m always looking forward to to explore potential ways of engaging
-								or collaborating with new people within the UK taxi industry. Reach out
-								and let&apos;s chat
+								or collaborating with new people. Reach out and let&apos;s chat
 							</p>
 						</div>
 						{/* Social Links */}

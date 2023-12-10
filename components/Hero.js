@@ -33,7 +33,7 @@ export default function Hero() {
 					</RainbowHighlight>
 				</RoughNotationGroup>
 				<p className='text-lg text-gray-500 mt-6 dark:text-gray-300'>
-					Experienced in working with some of the top organizations in the UK taxi
+					Experienced in working with some of the top organisations in the UK taxi
 					industry, I spark change. With a clear vision and rich experience, I create
 					innovative strategies, provide crucial mentorship, and lead by example. My
 					aim? Steering the industry towards a brighter tomorrow, blending

@@ -5,35 +5,31 @@ const userData = {
 	avatarUrl: '/avatar.png',
 	email: 'Liam@liambrewster.co.uk',
 	address: 'Sheffield, United Kingdom.',
+	// TODO: create all projects and maybe a pae to explain them
 	projects: [
 		{
 			title: 'Veezu',
 			link: 'https://veezu.co.uk',
-			imgUrl: '/PayMyTaxiMock.png',
+			imgUrl: '/projects/veezu.jpg',
 		},
 		{
-			title: 'Alex School of Motoring',
-			link: 'https://alexsom.co.uk',
-			imgUrl: '/AlexSOMmock.png',
+			title: 'Taxi Social Ai (Coming Soon)',
+			link: 'https://social.liambrewster.co.uk',
+			imgUrl: '/projects/taxisocial.jpeg',
 		},
 		{
-			title: 'Portfolio',
-			link: 'https://liambrewster.co.uk',
-			imgUrl: '/PortfolioMock.png',
-		},
-		{
-			title: 'KFC Landing Page',
-			link: 'https://liambrewster.github.io/KFC_Landing_Page/',
-			imgUrl: '/KFCMockup.png',
+			title: 'Park 4 Taxi (Coming Soon)',
+			link: 'https://Park4taxi.liambrewster.co.uk',
+			imgUrl: '/projects/parking.jpeg',
 		},
 	],
 	about: {
 		title:
 			'I want to be a leader and shake up our industry, sparking change and creating awesome stuff for all to benefit',
 		description: [
-			`A 32-year-old freelance web designer & developer. I'm also a Sheffield United supporter, Tech-Geek and Star Wars megafan. I like to work on all things web, from UI/UX design to full-stack development.`,
-			`Freelancing is not my full time gig, I work as part of the management team for one of the UK's largest taxi companies, ensuring we are at the cutting edge of technology and our business is optimised to work in the most effcient way possible. so that is why you will notice a theme of most of my projects being with the transport/logistics/taxi industry but i can work with all industries`,
-			`I'm fiercely dedicated to achieving success with everything i am involed with, pushing boundaries along the way.`,
+			`Currently working as the National JBC (call centre) Resources Manager at Veezu. I'm also a Sheffield United supporter, Tech-Geek and Star Wars megafan. i work optimising resource allocation and fostering strong partnerships with our outsourcing teams`,
+			`i like to ensure whenever i work, we are at the cutting edge of technology and our business is optimised to work in the most effcient way possible. so that is why you will notice a theme of most of my projects being with the transport/logistics/taxi industry but i can work with all industries`,
+			`I'm fiercely dedicated to achieving success with everything i am involed with, pushing boundaries along the way.I drive improvements in JBC systems while actively seeking opportunities for enhanced service quality and streamlined operations. With a keen eye on passenger-driven service excellence, I aim to lead our teams towards efficiency, resilience, and exceptional performance, ensuring every journey remains exceptional.`,
 			`In my spare time, I'm often found being crazy with my two daughters and the dog, either that or I'm shut in a dark room watching too much youtube of probably football highlights.`,
 		],
 		currentProject: 'Veezu',
@@ -42,10 +38,10 @@ const userData = {
 	services: {
 		title: 'Lets Connect and Collaborate!',
 		description: [
-			`With a wealth of knowledge and seasoned experience, I bring valuable expertise to the table, poised to advise and guide on any business decisions effectively. My depth of insight enables strategic counsel that empowers informed decision-making, ensuring the business navigates toward success with confidence and clarity.`,
-			`I'm passionate about sharing insights, strategising for growth, and exploring exciting opportunities within the UK taxi industry. Whether it's casual coffee chats to exchange ideas, strategy meetings to brainstorm innovative approaches, or consultations for business enhancement, I'm open to engaging in discussions that drive positive change.`,
+			`With a wealth of knowledge and seasoned experience in senior positions, I bring valuable expertise to the table, poised to advise and guide on any business decisions effectively. My depth of insight enables strategic counsel that empowers informed decision-making, ensuring the business navigates toward success with confidence and clarity.`,
+			`I'm passionate about sharing insights, strategising for growth, and exploring exciting opportunities within the UK taxi industry but open to new industires too. Whether it's casual coffee chats to exchange ideas, strategy meetings to brainstorm innovative approaches, or consultations for business enhancement, I'm open to engaging in discussions that drive positive change.`,
 			`Moreover, I'm also open to exploring consultancy engagements, be it for payment, equity participation, or non-executive positions—provided they align with ethical considerations and avoid competition or conflicts of interest with my current commitments.`,
-			`Let's explore ways to innovate and evolve the UK taxi landscape together. Reach out for a friendly conversation or to explore potential collaborations!`,
+			`Let's explore ways to innovate and evolve your industry together. Reach out for a friendly conversation or to explore potential collaborations!`,
 		],
 	},
 
@@ -60,6 +56,11 @@ const userData = {
 			title: 'Resource Allocation & Management',
 			link: '#',
 			imgUrl: '/service/rota.jpeg',
+		},
+		{
+			title: 'Software Development and Project Management',
+			link: '#',
+			imgUrl: '/service/WebDev.jpeg',
 		},
 		{
 			title: 'Change Management Initiatives and Roadmaps',
@@ -102,11 +103,6 @@ const userData = {
 			imgUrl: '/service/crisis.jpeg',
 		},
 		{
-			title: 'Data Analysis and BI Consultancy',
-			link: '#',
-			imgUrl: '/service/BI.jpeg',
-		},
-		{
 			title: 'Strategic Planning and Implementation',
 			link: '#',
 			imgUrl: '/service/strategy.jpeg',
@@ -122,28 +118,36 @@ const userData = {
 				'This is the year, both me and you get to work together on an exciting collobration projects',
 		},
 		{
-			title: 'More Freelance Work',
-			company: 'Upwork, Fiver & Direct Enquires ...',
-			year: '2022',
-			companyLink: 'https://LiamBrewster.co.uk',
+			title: 'Started With Veezu',
+			company: 'City Taxis Joined Forces',
+			year: '2023',
+			companyLink: 'https://veezu.co.uk',
 			desc:
-				'Started choosing to work on more projects again that can i can commit too around my main work of City Taxis',
+				'Helped transition into working as part of the bigger group woth Veezu',
 		},
 		{
-			title: 'Project Manager',
-			company: 'Caboodle',
+			title: 'Quality and Effciencies',
+			company: 'City Taxis',
 			year: '2020',
-			companyLink: 'https://icabbi.com/marketplace/partners/caboodleit/',
+			companyLink: 'https://citytaxis.com',
 			desc:
-				'The pandemic hit so i switched over to the caboodle project to help build and scale, so i took on many roles of project management to QA to production release to  customer onboarding, so great diverse set of roles but so much fun',
+				'My goal is to help preserve our reputation by ensuring that our products and services are capable to drive sustainable growth in the business.',
 		},
 		{
-			title: 'Starting Making Websites and Consulting',
-			company: 'Freelance',
+			title: 'Senior Managment Team',
+			company: 'City Taxis',
 			year: '2018',
-			companyLink: 'https://liambrewster.co.uk',
+			companyLink: 'https://citytaxis.com',
 			desc:
-				'So i began to make wordpress websites for people i know, and hosting them online, i also began to work as a freelance for on-site support along with system implementaions and training across europe and even making it as far as Austrailia.',
+				'Went into a Regional operation role, My role is to be part of the senior management team, who would oversee the day to day running of the business. we strive to embrace and implement new ideas that will enhance the business.',
+		},
+		{
+			title: 'Project Manager / Consulations',
+			company: 'Myself',
+			year: '2014',
+			companyLink: 'https://icabbi.com/',
+			desc:
+				'Worked with various taxi companies across the UK as a consultant to help them with projects, this would be from helping them run their business operational or training their staff to be the best. i would travel across the world, visiting place like Ireland, Germany and Even Austrailia , all around my working hours with City Taxis',
 		},
 		{
 			title: 'Full Time Work',
